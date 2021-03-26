@@ -8,8 +8,7 @@ $re_senha = $_POST["re_senha"];
 #cria a variavel para a tabela login do mysql ter o valores determinados.
 $sql = "insert into login (login, senha, re_senha) values ('$login', '$senha', '$re_senha')";
 if($senha == $re_senha){
-	echo "salvo com sucesso";
-	<a href="usu.senha.html">Tela Inicial</a> 
+	echo "salvo com sucesso"; 
 }
 else {
 echo "senha incorreta";
